@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "40b09948-b408-4271-aae2-a3f8b9d5da94"
+      }
+    },
+    "android": {
+      "package": "com.hiroworks.priceshareclean",
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    }
+  }
+}

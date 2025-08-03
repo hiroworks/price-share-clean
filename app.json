@@ -4,7 +4,9 @@
     "slug": "price-share-clean",
     "version": "1.0.0",
     "sdkVersion": "50.0.0",
-    "platforms": ["android"],
+    "platforms": [
+      "android"
+    ],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -30,6 +32,10 @@
       "eas": {
         "projectId": "40b09948-b408-4271-aae2-a3f8b9d5da94"
       }
-    }
+    },
+    "plugins": [
+      "expo-build-properties",
+      "expo-router"
+    ]
   }
 }

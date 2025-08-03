@@ -1,0 +1,29 @@
+# node modules
+node_modules/
+.expo/
+dist/
+build/
+web-build/
+android/
+ios/
+
+# system files
+.DS_Store
+.env
+*.log
+*.keystore
+*.jks
+
+# metro/Expo cache
+.expo-shared/
+.expo/
+npm-debug.log*
+
+# typescript
+*.tsbuildinfo
+
+# vscode
+.vscode/
+
+# eas build cache
+.expo/

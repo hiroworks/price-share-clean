@@ -1,9 +1,16 @@
 {
   "expo": {
-    "extra": {
-      "eas": {
-        "projectId": "40b09948-b408-4271-aae2-a3f8b9d5da94"
-      }
+    "name": "PriceShare",
+    "slug": "price-share-clean",
+    "version": "1.0.0",
+    "sdkVersion": "50.0.0",
+    "platforms": ["android"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
     },
     "android": {
       "package": "com.hiroworks.priceshareclean",
@@ -12,6 +19,17 @@
         "ACCESS_FINE_LOCATION",
         "ACCESS_COARSE_LOCATION"
       ]
+    },
+    "updates": {
+      "url": "https://u.expo.dev/40b09948-b408-4271-aae2-a3f8b9d5da94"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "40b09948-b408-4271-aae2-a3f8b9d5da94"
+      }
     }
   }
 }

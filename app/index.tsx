@@ -1,10 +1,10 @@
 // app/index.tsx
-import { Text, View } from 'react-native';
+import { View, Text } from 'react-native';
 
 export default function Home() {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>ビルド成功＆起動確認テスト</Text>
+    <View>
+      <Text>Hello, world!</Text>
     </View>
   );
 }

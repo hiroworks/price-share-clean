@@ -14,6 +14,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "jsEngine": "jsc",
     "android": {
       "package": "com.hiroworks.priceshareclean",
       "permissions": [

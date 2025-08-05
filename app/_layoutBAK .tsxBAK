@@ -1,0 +1,10 @@
+// app/_layout.tsx
+import { Stack } from 'expo-router';
+
+console.log('Stack の中身:', Stack);
+console.log("✅ typeof Stack =", typeof Stack);
+const Layout = () => {
+  return <Stack />;
+};
+
+export default Layout;
